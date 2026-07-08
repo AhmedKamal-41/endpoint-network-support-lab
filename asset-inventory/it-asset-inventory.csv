@@ -1,0 +1,16 @@
+Asset Tag,Device Name,Serial Number,Assigned User,Department,Device Type,OS Version,Warranty Expiration,Condition,Last Checked,Installed Apps,Security Status,Current Issue,Ticket History,Return Status
+QB-LT-001,QB-FRONT-01,SN7X4A1B2C3,Maria Lopez,Operations,Laptop,Windows 11 Pro 23H2,2026-11-15,Good,2026-07-01,M365; Chrome; EHR Client; VPN; EDR,Compliant,None,TKT-1042 (resolved),In Use
+QB-LT-002,QB-FRONT-02,SN7X4A1B2C4,James Carter,Operations,Laptop,Windows 11 Pro 23H2,2026-11-15,Good,2026-07-01,M365; Edge; EHR Client; VPN; EDR,Compliant,None,None,In Use
+QB-LT-003,QB-BILL-01,SN7X4A1B2C5,Aisha Khan,Finance,Laptop,Windows 10 Pro 22H2,2026-03-20,Fair,2026-06-28,M365; Chrome; Billing App; VPN; EDR,Needs Update,Missing 3 Windows updates,TKT-1055 (open),In Use
+QB-LT-004,QB-BILL-02,SN7X4A1B2C6,Robert Nguyen,Finance,Laptop,Windows 10 Pro 22H2,2025-12-10,Fair,2026-06-30,M365; Chrome; Billing App; VPN; EDR,Compliant,Low disk space (7% free),TKT-1058 (open),In Use
+QB-LT-005,QB-HR-01,SN7X4A1B2C7,Priya Patel,HR,Laptop,Windows 11 Pro 23H2,2027-01-05,Good,2026-07-02,M365; Edge; HR Portal; VPN; EDR,Compliant,None,TKT-1031 (resolved),In Use
+QB-LT-006,QB-HR-02,SN7X4A1B2C8,David Kim,HR,Laptop,Windows 11 Pro 23H2,2027-01-05,Good,2026-07-02,M365; Chrome; HR Portal; VPN; EDR,Compliant,None,None,In Use
+QB-LT-007,QB-OPS-01,SN7X4A1B2C9,Sofia Rossi,Operations,Laptop,Windows 10 Pro 22H2,2025-09-30,Needs Repair,2026-06-25,M365; Chrome; EHR Client; VPN; EDR,Compliant,Battery not charging; swelling reported,TKT-1049 (escalated),Pending Repair
+QB-LT-008,QB-OPS-02,SN7X4A1B2D1,Michael Brown,Operations,Laptop,Windows 11 Pro 23H2,2026-11-15,Good,2026-07-03,M365; Edge; EHR Client; VPN; EDR,Compliant,VPN not connecting from home,TKT-1061 (open),In Use
+QB-LT-009,QB-OPS-03,SN7X4A1B2D2,Emma Wilson,Operations,Laptop,Windows 11 Pro 23H2,2026-11-15,Good,2026-07-03,M365; Chrome; EHR Client; VPN; EDR,Compliant,None,None,In Use
+QB-LT-010,QB-MGT-01,SN7X4A1B2D3,Olivia Martinez,Management,Laptop,Windows 11 Pro 23H2,2027-02-18,Good,2026-07-01,M365; Edge; EHR Client; VPN; EDR,Compliant,None,TKT-1027 (resolved),In Use
+QB-LT-011,QB-MGT-02,SN7X4A1B2D4,William Garcia,Management,Laptop,Windows 11 Pro 23H2,2027-02-18,Good,2026-07-01,M365; Chrome; EHR Client; VPN; EDR,Compliant,Printer PRN-FRONT-01 not printing,TKT-1063 (open),In Use
+QB-LT-012,QB-FIN-03,SN7X4A1B2D5,Grace Lee,Finance,Laptop,Windows 10 Pro 22H2,2025-11-01,Fair,2026-06-29,M365; Chrome; Billing App; VPN; EDR,At Risk,EDR agent not reporting,TKT-1060 (escalated),In Use
+QB-LT-013,QB-OPS-04,SN7X4A1B2D6,Daniel Adams,Operations,Laptop,Windows 11 Pro 23H2,2026-11-15,Good,2026-07-04,M365; Edge; EHR Client; VPN; EDR,Compliant,None,None,In Use
+QB-LT-014,QB-HR-03,SN7X4A1B2D7,Laura Chen,HR,Laptop,Windows 10 Pro 22H2,2025-08-15,Good,2026-06-20,M365; Chrome; HR Portal; VPN; EDR,Compliant,User leaving company 2026-07-15,TKT-1064 (open),Offboarding Required
+QB-LT-015,QB-SPARE-01,SN7X4A1B2D8,Unassigned,IT,Laptop,Windows 11 Pro 23H2,2027-03-30,Good,2026-07-05,Base Image; EDR,Compliant,Spare - ready to deploy,None,In Stock
