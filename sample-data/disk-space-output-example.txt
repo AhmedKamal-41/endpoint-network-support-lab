@@ -1,0 +1,27 @@
+============ DISK SPACE REPORT ============
+Computer: QB-BILL-02
+
+Drive C:
+   Size : 237.9 GB
+   Used : 221.5 GB
+   Free : 16.4 GB (6.9%)
+   STATUS: LOW - free up space soon.
+
+Drive D:
+   Size : 0.0 GB
+   Free : 0.0 GB (0%)
+   STATUS: LOW - free up space soon.
+
+Report complete.
+
+--- Note (lab) ---
+Only C: is the system drive here. After cleanup on QB-BILL-02:
+emptied Recycle Bin, ran Clear-TempFiles-Safe.ps1, and moved ~20 GB of old
+recordings to the Operations share -> C: rose to 35% free and updates installed.
+
+--- After cleanup ---
+Drive C:
+   Size : 237.9 GB
+   Used : 154.6 GB
+   Free : 83.3 GB (35.0%)
+   STATUS: OK

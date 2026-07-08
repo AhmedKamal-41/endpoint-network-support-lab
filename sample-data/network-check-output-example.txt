@@ -1,0 +1,39 @@
+=========== NETWORK STATUS CHECK ===========
+Computer: QB-OPS-02
+
+Interface : Wi-Fi
+IP Address: 192.168.1.118
+Gateway   : 192.168.1.1
+DNS       : 192.168.1.1, 8.8.8.8
+
+Testing gateway (192.168.1.1)...
+   Gateway reachable.
+Testing internet (8.8.8.8)...
+   Internet reachable by IP.
+Testing DNS resolution (google.com)...
+   DNS resolution working.
+
+Network check complete.
+
+--- Second example: a failure case (DNS problem) ---
+
+=========== NETWORK STATUS CHECK ===========
+Computer: QB-FRONT-01
+
+Interface : Wi-Fi
+IP Address: 192.168.1.112
+Gateway   : 192.168.1.1
+DNS       : 10.212.0.1
+
+Testing gateway (192.168.1.1)...
+   Gateway reachable.
+Testing internet (8.8.8.8)...
+   Internet reachable by IP.
+Testing DNS resolution (google.com)...
+   DNS not resolving - see dns-not-resolving runbook.
+
+Network check complete.
+
+--- Note (lab) ---
+The second device can reach the internet by IP but names fail - a leftover VPN
+DNS server (10.212.0.1) is set. Fix: reset DNS to automatic, ipconfig /flushdns.
